@@ -32,13 +32,7 @@ window.attachApp = (viewerId, listId, socketAddress, threadType) => {
   if (viewerId) {
     app = (
       // The main show
-      <App
-        viewerId={viewerId}
-        listId={listId}
-        apiUri={apiUri}
-        socketAddress={socketAddress}
-        threadType={threadType}
-      />
+      document.write('hello world');
     );
   } else {
     /**

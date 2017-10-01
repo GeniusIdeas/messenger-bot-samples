@@ -17,11 +17,7 @@
         MessengerExtensions.getContext(
           '1898084047093164',
           function success(context) {
-            window.attachApp(
-              context.psid,
-              <%= listId %>,
-              "<%= socketAddress %>",
-              context.thread_type);
+            document.write('hello world');
           }, function error(err) {
             window.attachApp();
           });
